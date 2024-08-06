@@ -25,7 +25,7 @@ function About() {
       <section className="container px-4 mx-auto">
         <div className="py-20">
           <div className="flex flex-col items-center">
-            <h1 className="font-cairo font-bold text-4xl text-center mt-10">
+            <h1 className="font-cairo font-bold text-4xl text-gray-300 text-center mt-10 ">
               About Me
             </h1>
             <hr className="border-b-4 border-secondary w-40 mt-3 mb-14 mx-auto md:mx-0" />
@@ -47,7 +47,7 @@ function About() {
 
         <div className="py-8">
           <div className="flex flex-col items-center">
-            <h1 className="font-cairo font-bold text-4xl text-center mt-10">
+            <h1 className="font-cairo font-bold text-4xl text-gray-300 text-center mt-10">
               Areas of Expertise
             </h1>
             <hr className="border-b-4 border-secondary w-40 mt-3 mb-14 mx-auto md:mx-0" />
@@ -159,7 +159,7 @@ function About() {
 
         <div className="py-8">
           <div className="flex flex-col items-center">
-            <h1 className="font-cairo font-bold text-4xl text-center mt-10">
+            <h1 className="font-cairo font-bold text-4xl text-gray-300 text-center mt-10">
               Tools{" "}
             </h1>
             <hr className="border-b-4 border-secondary w-40 mt-3 mb-14 mx-auto md:mx-0" />
@@ -223,14 +223,14 @@ function About() {
 
         <div className="py-8">
           <div className="flex flex-col items-center">
-            <h1 className="font-cairo font-bold text-4xl text-center">
+            <h1 className="font-cairo font-bold text-4xl text-gray-300 text-center">
               Education and Certifications
             </h1>
             <hr className="border-b-4 border-secondary w-48 mt-3 mb-14 mx-auto md:mx-0" />
           </div>
           <div className="flex justify-center md:gap-20 flex-col md:flex-row mt-10">
             <div className="mb-5">
-              <h2 className="font-cairo text-2xl font-semibold border-b-4 border-secondary w-max">
+              <h2 className="font-cairo text-2xl text-gray-300 font-semibold border-b-4 border-secondary w-max">
                 Education:
               </h2>
               <p className="font-medium flex items-start gap-2 my-7 text-cyan-100">
@@ -246,7 +246,7 @@ function About() {
               </p>
             </div>
             <div>
-              <h2 className="font-cairo text-2xl font-semibold border-b-4 border-secondary w-max">
+              <h2 className="font-cairo text-2xl text-gray-300 font-semibold border-b-4 border-secondary w-max">
                 Certifications:
               </h2>
               <p className="font-medium flex items-start gap-2 my-7 text-cyan-100">

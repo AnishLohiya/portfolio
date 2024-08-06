@@ -30,7 +30,7 @@ function Home({ isLoading }) {
       <section className="home-hero-section pt-32 pb-20 relative">
         <div className="container flex flex-wrap md:flex-nowrap justify-between items-center mx-auto my-10 gap-4 px-4">
           <div className="relative">
-            <h1 className="text-2xl font-cairo font-semibold tracking-wide">
+            <h1 className="text-2xl text-gray-300 font-cairo font-semibold tracking-wide">
               Hello
               <span className="emoji-wave" role="img" aria-labelledby="wave">
                 👋
@@ -44,7 +44,7 @@ function Home({ isLoading }) {
             <h2 className="text-3xl font-extrabold tracking-wide text-accent font-cairo my-7">
               <TypeEffect />
             </h2>
-            <p className="hover:text-secondary fill-white w-max hover:fill-secondary mt-14 transition-all duration-300">
+            <p className="text-gray-300 hover:text-secondary fill-white w-max hover:fill-secondary mt-14 transition-all duration-300">
               <Link
                 to={"/portfolio"}
                 className="learn-more-link flex items-center relative font-bold text-2xl"
@@ -73,7 +73,7 @@ function Home({ isLoading }) {
       <section className="container px-4 mx-auto">
         <div className="py-20">
           <div className="flex flex-col items-center">
-            <h1 className="font-cairo font-bold text-center text-4xl mt-10">
+            <h1 className="font-cairo font-bold text-gray-300 text-center text-4xl mt-10">
               About Me
             </h1>
             <hr className="border-b-4 border-secondary w-36 mt-3 mb-14 mx-auto md:mx-0" />
@@ -117,7 +117,7 @@ function Home({ isLoading }) {
 
         <div className="py-20">
           <div className="flex flex-col items-center">
-            <h1 className="font-cairo font-bold text-4xl mt-10 text-center">
+            <h1 className="font-cairo font-bold text-gray-300 text-4xl mt-10 text-center">
               Area of Interest
             </h1>
             <hr className="border-b-4 border-secondary w-48 mt-3 mb-14 mx-auto md:mx-0" />
@@ -187,7 +187,7 @@ function Home({ isLoading }) {
         {/* Highlighted creations div */}
         <div className="py-20">
           <div className="flex flex-col items-center">
-            <h1 className="font-cairo font-bold text-4xl mt-10 text-center">
+            <h1 className="font-cairo font-bold text-gray-300 text-4xl mt-10 text-center">
               Project Highlights
             </h1>
             <hr className="border-b-4 border-secondary w-48 mt-3 mb-14 mx-auto md:mx-0" />

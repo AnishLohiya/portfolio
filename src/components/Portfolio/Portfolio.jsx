@@ -55,7 +55,7 @@ function Portfolio() {
       <section className='container px-4 mx-auto'>
         <div className='py-20'>
           <div className='flex flex-col items-center'>
-            <h1 className='font-cairo font-bold text-4xl text-center mt-10'>My Recent Works</h1>
+            <h1 className='font-cairo font-bold text-gray-300 text-4xl text-center mt-10'>My Recent Works</h1>
             <hr className='border-b-4 border-secondary w-40 mt-3 mb-14 mx-auto md:mx-0' />
           </div>
           <p className='text-accent text-center'>Check out my recent projects.</p>

@@ -11,7 +11,7 @@ function Contact() {
       <section className='container px-4 mx-auto'>
         <div className='py-20'>
           <div className='flex flex-col items-center'>
-            <h1 className='font-cairo font-bold text-4xl text-center mt-10'>Get In Touch</h1>
+            <h1 className='font-cairo font-bold text-gray-300 text-4xl text-center mt-10'>Get In Touch</h1>
             <hr className='border-b-4 border-secondary w-28 mt-3 mb-14 mx-auto md:mx-0' />
           </div>
           <p className='text-accent'>I'd love to hear from you! Whether you have a project idea, a question about my work, or simply want to connect and say hello, please don’t hesitate to reach out. Drop me a message below, and I'll get back to you as soon as possible.</p>
