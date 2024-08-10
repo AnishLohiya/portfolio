@@ -1,4 +1,5 @@
 import withMT from "@material-tailwind/react/utils/withMT";
+const colors = require('tailwindcss/colors')
 
 export default withMT({
   content: [
@@ -8,6 +9,7 @@ export default withMT({
   theme: {
     extend: {
       colors: {
+        ...colors,
         primary: '#212121',
         secondary: '#44ADF8',
         accent: '#D6F5FF',
